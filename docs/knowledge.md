@@ -8,7 +8,7 @@ Status: unknown → seen → understand → can apply. Starting statuses come fr
 | Packages, exported names, `internal/`, doc comments | seen | M1-T04 | event-booking | |
 | Make, `go test` flags (`-race`, `-run`, custom flags) | unknown | M1-T05 | | |
 | golangci-lint, forbidigo | unknown | M1-T06 | | |
-| `testing`: table-driven tests, subtests, `t.Helper`, `t.TempDir`, golden files | seen | M1-T07 | event-booking has API tests | |
+| `testing`: table-driven tests, subtests, `t.Helper`, `t.TempDir`, golden files | understand (table + subtests) | M1-T07 | M1-T07: wrote Quorum table test unaided, good edge cases | M1-T07 card |
 | GitHub Actions, CI caching, govulncheck | unknown | M1-T08 | | |
 | `flag` package, env config | unknown | M1-T10 | | |
 | Docker: multi-stage builds, named volumes | understand | M1-T11 | has Docker experience | |

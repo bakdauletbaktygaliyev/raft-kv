@@ -5,9 +5,9 @@
 | Phase | mentoring |
 | Gate | planning approved 2026-11-04 |
 | Milestone | M1: Walking skeleton + spikes |
-| Task | M1-T07: First table-driven test (in progress) |
-| Last completed | M1-T06: golangci-lint config (2026-11-05) |
-| Next step | User writes raft.Quorum + table test |
+| Task | M1-T08: CI workflow (in progress) |
+| Last completed | M1-T07: First table-driven test (2026-11-05) |
+| Next step | User creates GitHub repo, adds ci.yml, pushes |
 | Updated | 2026-11-05 |
 
 ## Open questions

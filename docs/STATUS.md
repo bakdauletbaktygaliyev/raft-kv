@@ -5,9 +5,9 @@
 | Phase | mentoring |
 | Gate | planning approved 2026-11-04 |
 | Milestone | M1: Walking skeleton + spikes |
-| Task | none (M1-T10 next) |
+| Task | M1-T10: Hello server binary with flags (in progress) |
 | Last completed | M1-T09: govulncheck + CI cache (2026-11-05) |
-| Next step | Start M1-T10 |
+| Next step | User adds config.go/main.go, runs checks, commits |
 | Updated | 2026-11-05 |
 
 ## Open questions

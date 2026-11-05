@@ -5,9 +5,9 @@
 | Phase | mentoring |
 | Gate | planning approved 2026-11-04 |
 | Milestone | M1: Walking skeleton + spikes |
-| Task | M1-T11: Docker image (in progress) |
-| Last completed | M1-T10: Hello server binary with flags (2026-11-05) |
-| Next step | User adds Dockerfile + .dockerignore, builds, commits |
+| Task | M1-T12: CI image build (in progress) |
+| Last completed | M1-T11: Docker image (2026-11-05) |
+| Next step | User adds image job, pushes, reruns |
 | Updated | 2026-11-05 |
 
 ## Open questions

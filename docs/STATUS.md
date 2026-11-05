@@ -5,9 +5,9 @@
 | Phase | mentoring |
 | Gate | planning approved 2026-11-04 |
 | Milestone | M1: Walking skeleton + spikes |
-| Task | M1-T08: CI workflow (in progress) |
-| Last completed | M1-T07: First table-driven test (2026-11-05) |
-| Next step | User creates GitHub repo, adds ci.yml, pushes |
+| Task | M1-T09: govulncheck + CI cache (in progress) |
+| Last completed | M1-T08: CI workflow (2026-11-05) |
+| Next step | User adds vuln job, pushes, reruns and compares |
 | Updated | 2026-11-05 |
 
 ## Open questions

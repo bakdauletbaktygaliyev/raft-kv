@@ -16,7 +16,6 @@ jobs:
       - uses: actions/setup-go@v7
         with:
           go-version-file: go.mod
-          cache: false
           cache-dependency-path: .golangci.yml
       - uses: golangci/golangci-lint-action@v9
         with:

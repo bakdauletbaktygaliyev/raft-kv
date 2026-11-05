@@ -5,9 +5,9 @@
 | Phase | mentoring |
 | Gate | planning approved 2026-11-04 |
 | Milestone | M1: Walking skeleton + spikes |
-| Task | M1-T12: CI image build (in progress) |
-| Last completed | M1-T11: Docker image (2026-11-05) |
-| Next step | User adds image job, pushes, reruns |
+| Task | M1-T13: README + LICENSE (in progress) |
+| Last completed | M1-T12: CI image build (2026-11-05) |
+| Next step | User adds README.md + LICENSE, pushes |
 | Updated | 2026-11-05 |
 
 ## Open questions

@@ -5,9 +5,9 @@
 | Phase | mentoring |
 | Gate | planning approved 2026-11-04 |
 | Milestone | M1: Walking skeleton + spikes |
-| Task | M1-T03: Create the repo and module (in progress) |
-| Last completed | M1-T02: Install Go tools and fix PATH (2026-11-05) |
-| Next step | User runs git init + go mod init and makes the first commit |
+| Task | M1-T04: Create the package layout (in progress) |
+| Last completed | M1-T03: Create the repo and module (2026-11-05) |
+| Next step | User creates packages with doc.go and commits |
 | Updated | 2026-11-05 |
 
 ## Open questions

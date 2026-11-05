@@ -1,0 +1,32 @@
+version: "2"
+
+linters:
+  default: standard        # errcheck, govet, ineffassign, staticcheck, unused
+  enable:
+    - forbidigo
+    - misspell
+    - errorlint
+  settings:
+    forbidigo:
+      analyze-types: true
+      forbid:
+        - pattern: '^time\.(Now|Since|Until|Sleep|After|AfterFunc|Tick|NewTimer|NewTicker)$'
+          pkg: '^time$'
+          msg: 'use the injected clock; deterministic code must not read real time'
+        - pattern: '^rand\.(Seed|Read|Int|Intn|IntN|Int31|Int31n|Int32|Int32N|Int63|Int63n|Int64|Int64N|N|Uint|Uint32|Uint32N|Uint64|Uint64N|UintN|Float32|Float64|ExpFloat64|NormFloat64|Perm|Shuffle)$'
+          pkg: '^math/rand(/v2)?$'
+          msg: 'use the seeded *rand.Rand passed in; global rand is not reproducible'
+  exclusions:
+    rules:
+      # forbidigo applies only to the deterministic packages
+      - linters: [forbidigo]
+        path-except: '^(raft|kv|wal|server|sim|chaos)/'
+
+formatters:
+  enable:
+    - gofmt
+
+issues:
+  max-issues-per-linter: 0
+  max-same-issues: 0
+  uniq-by-line: false

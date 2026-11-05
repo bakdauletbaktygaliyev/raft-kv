@@ -5,9 +5,9 @@
 | Phase | mentoring |
 | Gate | planning approved 2026-11-04 |
 | Milestone | M1: Walking skeleton + spikes |
-| Task | M1-T05: Makefile with build/test/lint targets (in progress) |
-| Last completed | M1-T04: Create the package layout (2026-11-05) |
-| Next step | User adds Makefile, runs all four targets, commits |
+| Task | M1-T06: golangci-lint config with determinism bans (in progress) |
+| Last completed | M1-T05: Makefile (2026-11-05) |
+| Next step | User adds .golangci.yml, proves the ban, commits |
 | Updated | 2026-11-05 |
 
 ## Open questions

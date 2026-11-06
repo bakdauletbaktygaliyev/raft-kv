@@ -13,7 +13,7 @@ Status: unknown → seen → understand → can apply. Starting statuses come fr
 | `flag` package, env config | unknown | M1-T10 | | |
 | Docker: multi-stage builds, named volumes | understand | M1-T11 | has Docker experience | |
 | Structs, methods, pointer vs value receivers | understand | M1-T14 | M1-T14: wrote test proving a value receiver mutates a copy | M1-T14 card |
-| Slices: len/cap, append, aliasing | seen | M1-T15 | | |
+| Slices: len/cap, append, aliasing | understand | M1-T15 | M1-T15: reproduced aliasing with a failing test, fixed with slices.Clone | M1-T15 card |
 | Maps and random iteration order; `slices.Sorted(maps.Keys(...))` | seen | M1-T16 | | |
 | Interfaces, small interfaces, fakes, dependency injection, `io.Writer`/`io.Reader` | seen | M1-T17 | | |
 | Errors: sentinels, `%w`, `errors.Is/As`, custom types; panic vs return; exit codes | seen | M1-T19 | | |

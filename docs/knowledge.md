@@ -12,7 +12,7 @@ Status: unknown → seen → understand → can apply. Starting statuses come fr
 | GitHub Actions, CI caching, govulncheck | unknown | M1-T08 | | |
 | `flag` package, env config | unknown | M1-T10 | | |
 | Docker: multi-stage builds, named volumes | understand | M1-T11 | has Docker experience | |
-| Structs, methods, pointer vs value receivers | seen | M1-T14 | event-booking | |
+| Structs, methods, pointer vs value receivers | understand | M1-T14 | M1-T14: wrote test proving a value receiver mutates a copy | M1-T14 card |
 | Slices: len/cap, append, aliasing | seen | M1-T15 | | |
 | Maps and random iteration order; `slices.Sorted(maps.Keys(...))` | seen | M1-T16 | | |
 | Interfaces, small interfaces, fakes, dependency injection, `io.Writer`/`io.Reader` | seen | M1-T17 | | |

@@ -5,10 +5,10 @@
 | Phase | mentoring |
 | Gate | planning approved 2026-11-04 |
 | Milestone | M1: Walking skeleton + spikes |
-| Task | M1-T14: value vs pointer receivers (in progress) |
-| Last completed | M1-T13: README + LICENSE (2026-11-05); setup block T01-T13 complete |
-| Next step | User writes warmup/counter + test |
-| Updated | 2026-11-05 |
+| Task | M1-T15: slices and aliasing (in progress) |
+| Last completed | M1-T14: value vs pointer receivers (2026-11-06) |
+| Next step | User writes Head, sees the test fail, fixes it |
+| Updated | 2026-11-06 |
 
 ## Open questions
 - See Unknowns in `02-verification.md`

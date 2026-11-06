@@ -5,9 +5,9 @@
 | Phase | mentoring |
 | Gate | planning approved 2026-11-04 |
 | Milestone | M1: Walking skeleton + spikes |
-| Task | M1-T13: README + LICENSE (in progress) |
-| Last completed | M1-T12: CI image build (2026-11-05) |
-| Next step | User adds README.md + LICENSE, pushes |
+| Task | M1-T14: value vs pointer receivers (in progress) |
+| Last completed | M1-T13: README + LICENSE (2026-11-05); setup block T01-T13 complete |
+| Next step | User writes warmup/counter + test |
 | Updated | 2026-11-05 |
 
 ## Open questions

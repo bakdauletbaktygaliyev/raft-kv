@@ -2,6 +2,12 @@
 
 Newest first. Entry types: decision, change, retro, note.
 
+## 2026-11-05: note: Setup block done (M1-T01..T13)
+- What: toolchain fixed, repo public on GitHub, Makefile, golangci-lint with forbidigo determinism bans, CI (lint, race tests, govulncheck, image build + smoke test) with per-job cache keys, raftkv config parsing, 8.45 MB distroless image, README + MIT.
+- Planned vs reality: 13 tasks in one day (estimate ~4 h). Most review rounds caught typos that "worked by accident" (`ling` skipped lint, `golangci.yml` without dot disabled bans, `CGO_ENABLE`) — pattern: verify the check actually ran, not just that it's green.
+- Process: user skips comprehension questions; for Commodity tasks code/config is given directly, Learn tasks are written by the user.
+- Affected: `tasks/M1-T01..T13`, `STATUS.md`
+
 ## 2026-11-04: decision: Planning approved
 - What: 8 milestones (MVP = M1-M6, ~336 h, projected ~2027-03-22, target 2027-04-15); Checkpoint A at end of M4; ordered cut list; 79 M1 task cards; M2-M8 as task groups.
 - Why: Bottom-up estimate replaces the rough 460 h; cards beyond the next milestone would go stale.
